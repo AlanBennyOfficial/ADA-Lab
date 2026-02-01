@@ -22,5 +22,14 @@ hcf = b
 
 print(hcf)
 
-end = time.time()
-print(f"Time taken: {end-start} ms")
+# end = time.time()
+# print(f"Time taken: {end-start} ms")
+
+# def gcd_euclidean(a, b):
+#     """
+#     Calculates the Greatest Common Divisor (GCD) of two numbers
+#     using the iterative Euclidean algorithm.
+#     """
+#     while b != 0:
+#         a, b = b, a % b
+#     return a
