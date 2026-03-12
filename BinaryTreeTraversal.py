@@ -18,9 +18,9 @@ def preorder(root):
 
 def postorder(root):
     if root:
-        print(root.data, end=" ")
         postorder(root.left)
         postorder(root.right)
+        print(root.data, end=" ")
 
 # Level order traversal (BFS)
 

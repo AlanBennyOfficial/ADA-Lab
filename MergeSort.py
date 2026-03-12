@@ -29,7 +29,41 @@ def merge(left, right):
 
     return result
 
-arr = list(map(int, input().split()))
+# arr = list(map(int, input().split()))
+# sorted_arr = merge_sort(arr)
+# print(sorted_arr)
+
+arr = [38, 27, 43, 3, 9, 82, 10]
 sorted_arr = merge_sort(arr)
 print(sorted_arr)
 
+
+
+# # ---------- TIME ANALYSIS ----------
+
+# n_values = [5000, 10000, 15000, 20000, 25000, 30000]
+# time_taken = []
+
+
+# for n in n_values:
+#     arr = [random.randint(1, 100000) for _ in range(n)]
+
+
+#     start_time = time.time()
+#     merge_sort(arr)
+#     end_time = time.time()
+
+
+#     elapsed_time = end_time - start_time
+#     time_taken.append(elapsed_time)
+
+
+#     print(f"n = {n}, Time Taken = {elapsed_time:.6f} seconds")
+
+# # ---------- PLOTTING GRAPH ----------
+# plt.plot(n_values, time_taken)
+# plt.xlabel("Number of Elements (n)")
+# plt.ylabel("Time Taken (seconds)")
+# plt.title("Merge Sort Time Complexity Analysis")
+# plt.grid(True)
+# plt.show()
