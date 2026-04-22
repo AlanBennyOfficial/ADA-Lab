@@ -7,3 +7,8 @@ def bubble_sort(arr):
                 # Swap adjacent elements
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
+
+# Example usage
+data = [64, 34, 25, 12, 22, 11, 90]
+sorted_data = bubble_sort(data)
+print("Sorted array:", sorted_data)
